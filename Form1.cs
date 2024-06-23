@@ -38,6 +38,7 @@ namespace Proyecto_Final_Cumbre
         private void contadorCantImparToolStripMenuItem_Click(object sender, EventArgs e)
         {
             fonms_ejercicio_5.Show();   
+            //creando_Rm2_Git
         }
     }
 }
