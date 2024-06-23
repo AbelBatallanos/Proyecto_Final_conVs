@@ -47,6 +47,7 @@
             label1.Size = new Size(479, 40);
             label1.TabIndex = 0;
             label1.Text = "Contador de impares antes de pares";
+            label1.Click += this.label1_Click;
             // 
             // button1
             // 
@@ -69,6 +70,7 @@
             label2.Size = new Size(118, 32);
             label2.TabIndex = 2;
             label2.Text = "Resultado";
+            label2.Click += label2_Click;
             // 
             // textBox1
             // 

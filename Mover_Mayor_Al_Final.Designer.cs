@@ -133,7 +133,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.Image = (Image)resources.GetObject("label8.Image");
-            label8.Location = new Point(316, 279);
+            label8.Location = new Point(265, 274);
             label8.Name = "label8";
             label8.Padding = new Padding(300, 200, 300, 200);
             label8.Size = new Size(638, 413);

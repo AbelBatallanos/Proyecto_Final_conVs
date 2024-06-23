@@ -9,6 +9,7 @@ namespace Proyecto_Final_Cumbre
         Mover_Mayor_Al_Final fonms_Mv_Mayor_End = new Mover_Mayor_Al_Final();
         Orden_Numeros fonms_Orden_Numeros = new Orden_Numeros();
         Cantidad_Impares_antes_Pares fonms_ejercicio_5 = new Cantidad_Impares_antes_Pares();
+        PruebaSola fonms_prueba = new PruebaSola();
         public Form1()
         {
             InitializeComponent();
@@ -37,11 +38,16 @@ namespace Proyecto_Final_Cumbre
 
         private void contadorCantImparToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fonms_ejercicio_5.Show();   
+            fonms_ejercicio_5.Show();
             //creando_Rm2_Git
             //Tercera_Modific
 
             //Haciendo un push con la rama 3
+        }
+
+        private void pruebaSolaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fonms_prueba.Show();
         }
     }
 }

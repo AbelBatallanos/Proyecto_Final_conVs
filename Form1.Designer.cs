@@ -37,6 +37,7 @@
             numeroOrdenadoToolStripMenuItem = new ToolStripMenuItem();
             contadorCantImparToolStripMenuItem = new ToolStripMenuItem();
             creandootraRamaToolStripMenuItem = new ToolStripMenuItem();
+            pruebaSolaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             // 
             // numerosToolStripMenuItem
             // 
-            numerosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { mayorNumeroToolStripMenuItem, sumaparesToolStripMenuItem, moverMayorAlFinalToolStripMenuItem, numeroOrdenadoToolStripMenuItem, contadorCantImparToolStripMenuItem });
+            numerosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { mayorNumeroToolStripMenuItem, sumaparesToolStripMenuItem, moverMayorAlFinalToolStripMenuItem, numeroOrdenadoToolStripMenuItem, contadorCantImparToolStripMenuItem, pruebaSolaToolStripMenuItem });
             numerosToolStripMenuItem.Name = "numerosToolStripMenuItem";
             numerosToolStripMenuItem.Size = new Size(180, 22);
             numerosToolStripMenuItem.Text = "Numeros";
@@ -104,6 +105,13 @@
             creandootraRamaToolStripMenuItem.Size = new Size(125, 20);
             creandootraRamaToolStripMenuItem.Text = "Creando_otra_Rama";
             // 
+            // pruebaSolaToolStripMenuItem
+            // 
+            pruebaSolaToolStripMenuItem.Name = "pruebaSolaToolStripMenuItem";
+            pruebaSolaToolStripMenuItem.Size = new Size(193, 22);
+            pruebaSolaToolStripMenuItem.Text = "Prueba_Sola";
+            pruebaSolaToolStripMenuItem.Click += pruebaSolaToolStripMenuItem_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -130,5 +138,6 @@
         private ToolStripMenuItem numeroOrdenadoToolStripMenuItem;
         private ToolStripMenuItem contadorCantImparToolStripMenuItem;
         private ToolStripMenuItem creandootraRamaToolStripMenuItem;
+        private ToolStripMenuItem pruebaSolaToolStripMenuItem;
     }
 }

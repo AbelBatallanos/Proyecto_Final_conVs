@@ -23,10 +23,15 @@ namespace Proyecto_Final_Cumbre
         {
             Digit_Ingresados.Text = textBox1.Text;
             int resultado = block_Numero.contador_Cantidad_impares(textBox1.Text);
-            label4.Text = "Se encontraron:"+" "+resultado.ToString() ;
+            label4.Text = "Se encontraron:" + " " + resultado.ToString();
             //Creando_Rm2_Git
 
             //Usando la rama 3
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
