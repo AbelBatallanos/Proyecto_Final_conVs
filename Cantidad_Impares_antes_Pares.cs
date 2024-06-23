@@ -24,6 +24,7 @@ namespace Proyecto_Final_Cumbre
             Digit_Ingresados.Text = textBox1.Text;
             int resultado = block_Numero.contador_Cantidad_impares(textBox1.Text);
             label4.Text = "Se encontraron:"+" "+resultado.ToString() ;
+            //Creando_Rm2_Git
         }
     }
 }

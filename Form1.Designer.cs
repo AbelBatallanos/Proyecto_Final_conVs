@@ -36,12 +36,13 @@
             moverMayorAlFinalToolStripMenuItem = new ToolStripMenuItem();
             numeroOrdenadoToolStripMenuItem = new ToolStripMenuItem();
             contadorCantImparToolStripMenuItem = new ToolStripMenuItem();
+            creandootraRamaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { abelNumerosToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { abelNumerosToolStripMenuItem, creandootraRamaToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 24);
@@ -97,6 +98,12 @@
             contadorCantImparToolStripMenuItem.Text = "Contador_Cant_Impar";
             contadorCantImparToolStripMenuItem.Click += contadorCantImparToolStripMenuItem_Click;
             // 
+            // creandootraRamaToolStripMenuItem
+            // 
+            creandootraRamaToolStripMenuItem.Name = "creandootraRamaToolStripMenuItem";
+            creandootraRamaToolStripMenuItem.Size = new Size(125, 20);
+            creandootraRamaToolStripMenuItem.Text = "Creando_otra_Rama";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -122,5 +129,6 @@
         private ToolStripMenuItem moverMayorAlFinalToolStripMenuItem;
         private ToolStripMenuItem numeroOrdenadoToolStripMenuItem;
         private ToolStripMenuItem contadorCantImparToolStripMenuItem;
+        private ToolStripMenuItem creandootraRamaToolStripMenuItem;
     }
 }
